@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+             *{
+                box-sizing: border-box;
+            }
+            body{
+              background-color: rgb(83, 97, 97);
+            }
+              ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+    background-color: #333;
+ margin-top: -5px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+   
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+div.gallery {
+  margin: 15px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 220px;
+  background-color:#dcddf0;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 200px;
+}
+ .pic1{
+   width:200px;
+   height:200px;
+ }
+
+p.desc {
+  padding: 10px;
+  text-align: center;
+  color:black;
+}
+.last{
+  clear:left;
+}
+ .nav,.side{
+   float:left;
+ }
+  .nav{
+    width:40%;
+    height:1600px;
+    background-color: rgb(231, 241, 238);
+    border:2px solid black;
+  }
+  .link1{
+    background-color:green;
+    padding:10px;
+    text-decoration: none;
+  }
+  .link1:hover{
+    text-decoration: underline;
+    background-color: greenyellow;
+  }
+  .side{
+    width:60%;
+    padding:15px;
+    background-color: rgb(231, 241, 238);
+    height:1700px;
+  }
+  .sideh{
+    text-align: center;
+  }
+  .sidep{
+    font-size: larger;
+  }
+  table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  height: 50px;
+}
+td{
+  height:35px;
+}
+tr:hover {background-color:#f5f5f5;}
+@media only screen and (max-width:600px){
+  .nav,.side{
+    width:100%;
+  }
+  table{
+    width:50%;
+  }
+  ul{
+    width:50%;
+  }
+  li{
+     width:100%;
+  }
+}
+            
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a  href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a  class="active" href="team.html">Team</a></li>
+            <li><a  href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <div>
+            <div class="gallery">
+              <a target="_blank" href="https://en.wikipedia.org/wiki/Mohamed_Salah">
+                <img src="salah.jpg" alt="mohamed salah" >
+              </a>
+              <p class="desc">Mohamed salah,Vrey famous footballer</p>
+            </div>
+            
+            <div class="gallery">
+              <a target="_blank" href="https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D9%85%D8%AF_%D8%A3%D8%A8%D9%88_%D8%AA%D8%B1%D9%8A%D9%83%D8%A9">
+                <img src="treka.jpg" alt="Abo treka">
+              </a>
+              <p class="desc">Mohamed abo treka, famous footballer</p>
+            </div>
+            
+            <div class="gallery">
+              <a target="_blank" href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo">
+                <img src="Cris.jpg" alt="Northern Lights" >
+              </a>
+              <p class="desc">Cristiano Ronaldo,Vrey very famous footballer</p>
+            </div>
+            
+            <div class="gallery">
+              <a target="_blank" href="https://en.wikipedia.org/wiki/Ramadan_Sobhi">
+                <img src="ramadan.png" alt="Mountains" >
+              </a>
+              <p class="desc">Ramadan sobhi, famous footballer</p>
+            </div>
+          </div>
+          <div class="last">
+            <div class="nav">
+            <h1 class="navh1">Famous nation clubs </h1>
+             <p class="navp1"><b>ALahly: </b> famous club in Egypt and have many lovers and I support it</p>
+            <img class="pic1" src="ahly.png" alt="ahly">
+              <br><br>
+            <a href="https://www.alahlyegypt.com/ar" target="_blank" class="link1"> Read more</a> <br>
+            <p class="navp1"><b>Zamalek: </b> famous club in Egypt and have many lovers </p>
+            <img class="pic1" src="Zamalek.png" alt="zamalek">
+              <br><br>
+            <a href="https://www.zamalektoday.com/" target="_blank" class="link1"> Read more</a> <br><br><br>
+            
+
+            <h1 class="navh2">Famous international clubs </h1>
+             <p class="navp1"><b>real madrid: </b> famous club in world and have many lovers and I support it</p>
+            <img class="pic1" src="madrid.png" alt="madrid">
+              <br><br>
+            <a href="https://www.realmadrid.com/en" target="_blank" class="link1"> Read more</a>  <br>
+
+            <p class="navp1"><b>real madrid: </b> famous club in world and have many lovers and I support it</p>
+            <img class="pic1" src="bar.png" alt="barclona">
+              <br><br>
+            <a href="https://www.fcbarcelona.com/en/" target="_blank" class="link1"> Read more</a>  <br>
+
+
+            </div>
+            <div class="side">
+              <h1 class="sideh">clubs that I support</h1>
+              <p class="sidep"><b> History of Ahly :</b>  also called the Red Devils, Egyptian professional football (soccer) club based in Cairo. 
+                Al-Ahly is one of Africa’s most successful and best-supported football clubs. The team is nicknamed the “Red Devils” for
+                 its red jerseys.
+                 In December 2000 the Confédération Africaine de Football (CAF) 
+                 awarded Al-Ahly the title of African Club of the Century.<br>Al-Ahly was formed in 1907 as a sports club for Egyptian high-school students. Egypt was occupied by British forces at the time, and an Englishman, Mitchel Ince, was the club’s first president. The club took part in local and regional competitions, including the Sultan Hussein Cup, which was contested from 1917 until 1938. Al-Ahly won that competition seven times.
+
+                 The Egyptian League (now called the Egyptian Premier League) began in the 1948–49 season, and Al-Ahly won the league’s first title. It would not lose a league championship until 1960, when Al-Ahly’s fiercest rival, Zamalek SC, won its own first league title. In total, Al-Ahly has won 42 Egyptian league championships, including eight in a row, beginning with the 2004–05 season. It has also won the Egypt Cup 36 times and the Egyptian Super Cup (a newer competition started in 2001 and played between the winners of the Egyptian Premier League and the winners of the Egypt Cup) a record 11 times. Abroad, 
+                 Al-Ahly won its first African Champions League in 1982 and has won that competition 8 additional times.</p><br><br>
+                 <p class="sidep"><b> History of real madrid:</b> On March 6, 1902, the Madrid Foot Ball Club is founded by a group of fans in Madrid, 
+                  Spain. Later known as Real Madrid, the club would become the most successful European football (soccer) franchise of the 20th century.
+
+                  With its trademark blue-and-white uniforms (originally inspired by those of an English team), Madrid began to make a name for itself in Spain almost right away. From 1905 to 1907, under their first coach, Englishman Arthur Johnson, the team won three titles in a row in the Spanish League, known as La Liga. These were just the first of 29 La Liga championships through 2006 for Real Madrid, including an impressive five consecutive La Liga titles from 1986 to 1990.
+                  
+                  Real Madrid’s legendary status internationally was solidified under theleadership of Santiago Bernabeu Yeste, who played for the team from 1912 to 1927 and served as club president from 1943 to 1978. In 1953, Bernabeu began to stock his roster with the best players he could find from around the world, instead of just the best in Spain, beginning with Madrid’s most famous soccer icon, Argentine star Alfredo Di Stefano. The resulting team won the European Cup, Europe’s football championship, an unprecedented five times in a row, from 1956 through 1960. Bernabeu then switched course in the 1960s and built a team entirely of Spanish players. In 1966, Real Madrid won its sixth European cup with a team of Spanish “hippies” who rivaled the Beatles in popularity on the European continent.</p>
+                  <br><br>
+                  <table >
+                    <tr>
+                      <th>Club</th>
+                      <th>champion</th>
+                      <th>numbers</th>
+                    </tr>
+                    <tr>
+                      <td>Ahly</td>
+                      <td>Egyptian Premier League</td>
+                      <td>42</td>
+                    </tr>
+                    <tr>
+                      <td>Ahly</td>
+                      <td>Egypt cup</td>
+                      <td>37</td>
+                    </tr>
+                    <tr>
+                      <td>Madrid</td>
+                      <td>Spanish League</td>
+                      <td>34</td>
+                    </tr>
+                    <tr>
+                      <td>madrid</td>
+                      <td>King's Cup</td>
+                      <td>19</td>
+                    </tr>
+
+                  </table>
+            </div>
+          </div>
+          
+    </body>
+</html>

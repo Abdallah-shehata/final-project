@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html >
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>
+      Contact
+    </title>
+    
+    <script type="text/javascript" src="contact.js"></script>
+    <style>
+      ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+    background-color: #333;
+ margin-top: -5px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+   
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+div{
+  width:50%;
+  margin:auto;
+   margin-top:100px ;
+  
+}
+label{
+  color:blue;
+}
+body{
+  background-color: rgb(213, 199, 247);
+}
+h1{
+  color:blue;
+}
+@media screen and (max-width:500px){
+    li{float:none;width:100%;}
+    ul{
+      width:50%;
+    }
+}
+.sp{
+  color:blue;
+}
+
+
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a  href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a   href="team.html">Team</a></li>
+      <li><a  href="news.html">News</a></li>
+      <li><a class="active" href="contact.html">Contact</a></li>
+    </ul>
+    <div>
+    <h1>
+      contact us
+    </h1>
+    <p>
+      Interested is a project bid? Please fill out the information below and we will respond within 24 hours.
+    </p>
+    <form id="contactForm" action="index.html" >
+      <fieldset>
+        <legend>Contact Details</legend>
+        <p>
+          <label for="custname">Name</label> 
+          <input id="custname" name="custname" />
+          Required
+        </p>
+        <p>
+          <label for="company">Company</label> 
+          <input id="company" name="company" type="text" />
+          Optional
+        </p>
+        <p>
+          <label for="email">Email</label> 
+          <input id="email" name="email" type="text" />
+          Required
+        </p>
+        <p>
+          <label for="password">Password</label> 
+          <input id="password" name="password" type="password" />
+          Required
+        </p>
+        <p> <spsn class="sp">type : </spsn>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label><br>
+          </p>
+        <p>
+          <label for="telephone">Telephone</label> 
+          <input id="telephone" name="telephone" type="text" />
+          Optional
+        </p>
+        <p>
+          <label for="website">Website</label> 
+          <input id="website" name="website" type="text" />
+          Required
+        </p>
+        <p>
+          <input class="submit" type="submit" name="submit" value="Submit Contact Details" />
+          <input type="reset" value="clear" />
+        </p>
+      </fieldset>
+    </form>
+  </div>
+  </body>
+</html>

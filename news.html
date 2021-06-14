@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+             *{
+                box-sizing: border-box;
+            }
+              ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+    background-color: #333;
+ margin-top: -5px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+   
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+.free{
+    text-align: center;
+    font-size: larger;
+    background-color: rgb(233, 227, 245);
+    padding:15px;
+    margin-top:0px;
+    
+}
+.dropdown p{
+  display: none;
+  position: absolute;
+  background-color: #545f54;
+  width: 50%;
+  box-shadow: 0px 8px 16px 0px rgba(182, 165, 165, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  color:white;
+  margin-top: -2px;
+}
+
+.dropdown:hover .hide {
+  display: block;
+}
+.nav{
+    font-size: larger;
+    background-color: wheat;
+    padding:15px;
+}
+.link{
+    background-color:green;
+    padding:10px;
+    text-decoration: none;
+  }
+  .link:hover{
+    text-decoration: underline;
+    background-color: greenyellow;
+  }
+  @media screen and (max-width:500px){
+    li{float:none;width:100%;}
+    ul{
+      width:50%;
+    }
+}
+
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a  href="index.html">Home</a></li>
+            <li><a  href="about.html">About</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a class="active" href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <div class="dropdown">
+          <h1 class="free">World champions for football</h1>
+          <p class="hide"> La Liga<br>Premier League<br>
+            French league</p>
+          </div>
+              <div class="nav">
+                  <h1> The Egyptian Premier League</h1>
+                  <p>The Egyptian Premier League is an Egyptian football league. It is considered the highest league in Egypt. It is supervised by the Egyptian Football Association. It is held by the Rubin cycle system. The champion and runner-up qualify for the African Champions League, while the third and sometimes fourth place qualifies for the African Confederation Cup, and the last three teams are relegated to The league standings will advance to the Second Division, while the group winners in the Second Division qualify for the Premier League. The first edition of the championship was held in the 1948-49 season, and Al-Ahly club won it; To be the first team to win the championship</p>
+                  <br><br>
+                  <a class="link" href="https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A_%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A_%D8%A7%D9%84%D9%85%D9%85%D8%AA%D8%A7%D8%B2"target="_blank">Read more</a>
+                 <br>
+                  <h1>World cup </h1>
+            <p>The World Cup is the most important football competition held under the auspices of the FIFA. The World Cup has been held every four years since 1930, except for the 1942 and 1946 tournaments, which were canceled due to World War II. 32 national teams have participated in the current tournament, since 1998, divided into eight groups, competing to win the championship title for a full month on the host country's stadiums. These teams qualify for the tournament through a three-year qualifying system</p><br><br>
+                  <a class="link" href="https://ar.wikipedia.org/wiki/%D9%83%D8%A3%D8%B3_%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85" target="_blank">Read more</a>
+                 <br>
+                </div>
+
+
+
+
+
+
+    </body>
+</html>
